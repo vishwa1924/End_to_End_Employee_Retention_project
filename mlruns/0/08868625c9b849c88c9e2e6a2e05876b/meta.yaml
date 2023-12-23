@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/08868625c9b849c88c9e2e6a2e05876b/artifacts
+end_time: 1703287420681
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08868625c9b849c88c9e2e6a2e05876b
+run_name: persistent-wasp-72
+run_uuid: 08868625c9b849c88c9e2e6a2e05876b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703287420576
+status: 4
+tags: []
+user_id: saivi

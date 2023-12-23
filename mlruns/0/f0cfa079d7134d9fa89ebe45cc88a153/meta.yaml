@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/f0cfa079d7134d9fa89ebe45cc88a153/artifacts
+end_time: 1703290056300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f0cfa079d7134d9fa89ebe45cc88a153
+run_name: funny-gull-339
+run_uuid: f0cfa079d7134d9fa89ebe45cc88a153
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703290053811
+status: 3
+tags: []
+user_id: saivi

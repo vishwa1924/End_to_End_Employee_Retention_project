@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/9a64e39cd7ec4966ab90e92c5e0300ec/artifacts
+end_time: 1703290989441
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a64e39cd7ec4966ab90e92c5e0300ec
+run_name: melodic-ant-43
+run_uuid: 9a64e39cd7ec4966ab90e92c5e0300ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703290989377
+status: 4
+tags: []
+user_id: saivi

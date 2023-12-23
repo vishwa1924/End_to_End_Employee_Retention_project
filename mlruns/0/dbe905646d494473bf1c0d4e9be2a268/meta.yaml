@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/dbe905646d494473bf1c0d4e9be2a268/artifacts
+end_time: 1703288996251
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dbe905646d494473bf1c0d4e9be2a268
+run_name: smiling-carp-498
+run_uuid: dbe905646d494473bf1c0d4e9be2a268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703288996179
+status: 4
+tags: []
+user_id: saivi

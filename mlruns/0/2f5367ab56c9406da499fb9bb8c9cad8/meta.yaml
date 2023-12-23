@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/2f5367ab56c9406da499fb9bb8c9cad8/artifacts
+end_time: 1703288963444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f5367ab56c9406da499fb9bb8c9cad8
+run_name: nebulous-cub-240
+run_uuid: 2f5367ab56c9406da499fb9bb8c9cad8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703288963338
+status: 4
+tags: []
+user_id: saivi

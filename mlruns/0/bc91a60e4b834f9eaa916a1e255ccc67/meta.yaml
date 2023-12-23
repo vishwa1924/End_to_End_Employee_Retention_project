@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End_to_End_Wine_Quality_project/mlruns/0/bc91a60e4b834f9eaa916a1e255ccc67/artifacts
+end_time: 1703287454827
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc91a60e4b834f9eaa916a1e255ccc67
+run_name: whimsical-ray-758
+run_uuid: bc91a60e4b834f9eaa916a1e255ccc67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703287454662
+status: 4
+tags: []
+user_id: saivi
