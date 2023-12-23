@@ -3,9 +3,19 @@ import os
 import numpy as np
 import pandas as pd
 from mlProject.pipeline.prediction import PredictionPipeline
+from flask_cors import CORS, cross_origin
 
+os.putenv('LANG', 'en_US.UTF-8')
+os.putenv('LC_ALL', 'en_US.UTF-8')
 
-app = Flask(__name__) # initializing a flask app
+app = Flask(__name__)
+CORS(app)
+
+class ClientApp:
+    def __init__(self):
+        self.filename = "input.txt"
+        self.classifier = PredictionPipeline(self.filename)
+
 
 @app.route('/',methods=['GET'])  # route to display the home page
 def homePage():
@@ -54,4 +64,5 @@ def index():
 
 
 if __name__ == "__main__":
-	app.run(host="0.0.0.0", port = 8080)
+    clApp = ClientApp()
+    app.run(host='0.0.0.0', port=8080)#for AWS
