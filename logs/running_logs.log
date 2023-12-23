@@ -1044,3 +1044,964 @@ x==========x]
 [2023-12-22 16:45:23,022: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-22 16:52:13,160: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.84:8080]
+[2023-12-22 16:52:13,160: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-22 16:52:19,952: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:52:19] "GET / HTTP/1.1" 200 -]
+[2023-12-22 16:52:31,277: INFO: _internal: 10.0.0.84 - - [22/Dec/2023 16:52:31] "GET / HTTP/1.1" 200 -]
+[2023-12-22 16:52:44,314: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:52:44] "GET / HTTP/1.1" 200 -]
+[2023-12-22 16:53:05,720: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.84:5000]
+[2023-12-22 16:53:05,722: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-22 16:53:07,198: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:53:07] "GET / HTTP/1.1" 200 -]
+[2023-12-22 16:54:37,295: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.84:8080]
+[2023-12-22 16:54:37,295: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-12-22 16:54:38,420: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "GET / HTTP/1.1" 200 -]
+[2023-12-22 16:54:38,438: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:38,438: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/css2/style.css HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:38,438: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/css2/nunito-font.css HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:38,438: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:38,901: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:38,901: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:38] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:39,859: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:39] "[33mGET /static/assets/favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:56,110: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:56] "POST /predict HTTP/1.1" 200 -]
+[2023-12-22 16:54:56,135: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:56] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:56,170: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:56] "[33mGET /static/js/scripts.js HTTP/1.1[0m" 404 -]
+[2023-12-22 16:54:56,177: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:54:56] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2023-12-22 16:55:50,468: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 16:55:50,470: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 16:55:50,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 16:55:50,473: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 16:55:50,474: INFO: common: created directory at: artifacts]
+[2023-12-22 16:55:50,474: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 16:55:50,475: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 16:55:50,480: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 16:55:50,481: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 16:55:50,485: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 16:55:50,486: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 16:55:50,488: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 16:55:50,489: INFO: common: created directory at: artifacts]
+[2023-12-22 16:55:50,489: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 16:55:50,544: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 16:55:50,545: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 16:55:50,549: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 16:55:50,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 16:55:50,555: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 16:55:50,557: INFO: common: created directory at: artifacts]
+[2023-12-22 16:55:50,557: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 16:55:50,572: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 16:55:50,608: INFO: data_transformation: (1199, 12)]
+[2023-12-22 16:55:50,612: INFO: data_transformation: (400, 12)]
+[2023-12-22 16:55:50,613: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 16:55:50,614: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 16:55:50,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 16:55:50,618: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 16:55:50,619: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 16:55:50,620: INFO: common: created directory at: artifacts]
+[2023-12-22 16:55:50,620: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-22 16:55:50,721: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-22 16:55:50,724: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-22 16:55:50,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 16:55:50,729: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 16:55:50,732: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 16:55:50,742: INFO: common: created directory at: artifacts]
+[2023-12-22 16:55:50,744: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-22 16:55:51,810: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-22 16:56:00,256: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 16:56:00,489: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:56:00] "GET /train HTTP/1.1" 200 -]
+[2023-12-22 16:56:00,983: INFO: _internal: 127.0.0.1 - - [22/Dec/2023 16:56:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2023-12-22 17:08:04,547: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:08:04,547: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:08:04,547: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:08:04,563: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:08:04,566: INFO: common: created directory at: artifacts]
+[2023-12-22 17:08:04,567: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:08:04,568: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 17:08:04,585: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:09:23,083: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:09:23,083: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:09:23,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:09:23,083: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:09:23,083: INFO: common: created directory at: artifacts]
+[2023-12-22 17:09:23,083: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:09:23,832: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0BD8:38D9:6FC0A7:8D1EED:6586237B
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 01:09:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770039-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1703293764.622365,VS0,VE139
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: df178dbaa5d187b1fd3c67e7e5617922ebdeeb6f
+Expires: Sat, 23 Dec 2023 01:14:23 GMT
+Source-Age: 0
+
+]
+[2023-12-22 17:09:23,849: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:09:23,850: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 17:09:23,852: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:09:23,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:09:23,854: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:09:23,855: INFO: common: created directory at: artifacts]
+[2023-12-22 17:09:23,857: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 17:09:23,870: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:09:23,870: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 17:09:23,885: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:09:23,887: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:09:23,887: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:09:23,887: INFO: common: created directory at: artifacts]
+[2023-12-22 17:09:23,887: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 17:09:23,904: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 17:09:23,904: INFO: data_transformation: (1199, 12)]
+[2023-12-22 17:09:23,904: INFO: data_transformation: (400, 12)]
+[2023-12-22 17:09:23,919: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:09:23,919: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 17:09:23,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:09:23,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:09:23,919: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:09:23,919: INFO: common: created directory at: artifacts]
+[2023-12-22 17:09:23,919: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-22 17:09:23,969: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:09:23,969: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-22 17:09:23,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:09:23,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:09:23,969: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:09:23,969: INFO: common: created directory at: artifacts]
+[2023-12-22 17:09:23,969: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-22 17:09:24,728: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-22 17:09:31,845: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:11:09,531: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:11:09,531: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:11:09,531: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:11:09,541: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:11:09,541: INFO: common: created directory at: artifacts]
+[2023-12-22 17:11:09,543: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:11:09,788: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0BD8:38D9:6FC0A7:8D1EED:6586237B
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 01:11:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770037-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1703293870.718505,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0d6f5b56f8c2ec3aa48a65e11b68f93492948075
+Expires: Sat, 23 Dec 2023 01:16:09 GMT
+Source-Age: 106
+
+]
+[2023-12-22 17:11:09,803: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:11:53,502: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:11:53,518: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:11:53,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:11:53,518: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:11:53,518: INFO: common: created directory at: artifacts]
+[2023-12-22 17:11:53,518: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:11:53,518: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 17:11:53,528: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:14:53,658: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:14:53,661: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:14:53,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:14:53,663: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:14:53,663: INFO: common: created directory at: artifacts]
+[2023-12-22 17:14:53,664: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:14:53,665: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 17:14:53,667: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 17:15:06,199: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 17:15:06,199: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:15:06,199: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:15:06,199: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:15:06,199: INFO: common: created directory at: artifacts]
+[2023-12-22 17:15:06,216: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 17:15:06,218: ERROR: stage_02_data_validation: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv']
+Traceback (most recent call last):
+  File "src/mlProject/pipeline/stage_02_data_validation.py", line 23, in <module>
+    obj.main()
+  File "src/mlProject/pipeline/stage_02_data_validation.py", line 16, in main
+    data_validation.validate_all_columns()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\components\data_validation.py", line 32, in validate_all_columns
+    raise e
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\components\data_validation.py", line 13, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+  File "C:\Users\saivi\anaconda3\envs\wine_env\lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\saivi\anaconda3\envs\wine_env\lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\saivi\anaconda3\envs\wine_env\lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\saivi\anaconda3\envs\wine_env\lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "C:\Users\saivi\anaconda3\envs\wine_env\lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/winequality-red.csv'
+[2023-12-22 17:16:01,834: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 17:16:01,834: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 17:16:01,846: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 17:16:01,847: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 17:16:01,847: INFO: common: created directory at: artifacts]
+[2023-12-22 17:16:01,848: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 17:16:02,531: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0BD8:38D9:6FC0A7:8D1EED:6586237B
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 01:16:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770083-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1703294162.319754,VS0,VE137
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8e3190e057563f745a3a39c86ddc4efb0eb6f69b
+Expires: Sat, 23 Dec 2023 01:21:02 GMT
+Source-Age: 0
+
+]
+[2023-12-22 17:16:02,544: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:05:20,246: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 18:05:20,246: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:05:20,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:05:20,246: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:05:20,246: INFO: common: created directory at: artifacts]
+[2023-12-22 18:05:20,256: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 18:05:20,956: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0BD8:38D9:6FC0A7:8D1EED:6586237B
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 02:05:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770078-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1703297121.732895,VS0,VE144
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b93e038acfc090a10b5268184d67e71f771c736b
+Expires: Sat, 23 Dec 2023 02:10:20 GMT
+Source-Age: 0
+
+]
+[2023-12-22 18:05:20,964: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:19:31,426: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 18:19:31,441: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:19:31,441: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:19:31,441: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:19:31,441: INFO: common: created directory at: artifacts]
+[2023-12-22 18:19:31,447: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 18:19:31,447: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 18:19:31,451: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:20:09,844: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 18:20:09,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:20:09,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:20:09,844: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:20:09,844: INFO: common: created directory at: artifacts]
+[2023-12-22 18:20:09,860: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 18:20:09,879: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:20:45,296: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 18:20:45,296: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:20:45,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:20:45,296: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:20:45,296: INFO: common: created directory at: artifacts]
+[2023-12-22 18:20:45,296: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 18:20:45,329: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:34:49,231: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 18:34:49,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:34:49,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:34:49,231: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:34:49,231: INFO: common: created directory at: artifacts]
+[2023-12-22 18:34:49,238: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 18:34:49,929: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0BD8:38D9:6FC0A7:8D1EED:6586237B
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 02:34:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770076-PAO
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1703298890.723312,VS0,VE128
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: de48c084ca7ba7baaf2e6c4f3064c8affe47d7df
+Expires: Sat, 23 Dec 2023 02:39:49 GMT
+Source-Age: 0
+
+]
+[2023-12-22 18:34:49,947: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:34:59,405: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 18:34:59,405: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:34:59,405: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:34:59,405: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:34:59,405: INFO: common: created directory at: artifacts]
+[2023-12-22 18:34:59,412: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 18:34:59,432: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:45:08,581: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 18:45:08,581: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:45:08,581: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:45:08,581: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:45:08,581: INFO: common: created directory at: artifacts]
+[2023-12-22 18:45:08,595: ERROR: stage_04_model_trainer: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 25, in <module>
+    obj.main()
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-22 18:51:17,578: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 18:51:17,578: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:51:17,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:51:17,590: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:51:17,590: INFO: common: created directory at: artifacts]
+[2023-12-22 18:51:17,593: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 18:51:17,599: INFO: stage_02_data_validation: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 18:51:19,147: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 18:51:19,147: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 18:51:19,170: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 18:51:19,171: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 18:51:19,178: INFO: common: created directory at: artifacts]
+[2023-12-22 18:51:19,178: ERROR: stage_04_model_trainer: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 25, in <module>
+    obj.main()
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-22 20:54:10,140: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 20:54:10,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 20:54:10,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 20:54:10,140: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 20:54:10,140: INFO: common: created directory at: artifacts]
+[2023-12-22 20:54:10,150: ERROR: stage_04_model_trainer: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 25, in <module>
+    obj.main()
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-22 21:00:38,840: INFO: stage_04_model_trainer: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 21:00:38,840: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:00:38,840: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:00:38,840: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:00:38,840: INFO: common: created directory at: artifacts]
+[2023-12-22 21:00:38,840: ERROR: stage_04_model_trainer: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 25, in <module>
+    obj.main()
+  File "src/mlProject/pipeline/stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-22 21:16:04,323: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 21:16:04,339: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:04,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:04,362: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:04,362: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:04,362: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 21:16:04,941: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2AD2:1F03:4ABC1A:5FC8E4:65866D13
+Accept-Ranges: bytes
+Date: Sat, 23 Dec 2023 05:16:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pao-kpao1770047-PAO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1703308565.675943,VS0,VE140
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 81806967580addc078ee74f2240ffd75e1c9b4a5
+Expires: Sat, 23 Dec 2023 05:21:04 GMT
+Source-Age: 0
+
+]
+[2023-12-22 21:16:04,958: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:04,958: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 21:16:04,958: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:04,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:04,958: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:04,958: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:04,958: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 21:16:05,001: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:05,001: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 21:16:05,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:05,008: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:05,008: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:05,008: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:05,008: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 21:16:05,043: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 21:16:05,043: INFO: data_transformation: (1199, 12)]
+[2023-12-22 21:16:05,043: INFO: data_transformation: (400, 12)]
+[2023-12-22 21:16:05,043: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:05,043: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 21:16:05,043: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:05,043: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:05,043: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:05,043: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:05,043: ERROR: main: "'ConfigBox' object has no attribute 'elasticnet'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'ElasticNet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'ElasticNet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'elasticnet'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'elasticnet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    data_ingestion.main()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 64, in get_model_trainer_config
+    params = self.params.ElasticNet
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'elasticnet'"
+[2023-12-22 21:16:53,534: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 21:16:53,550: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:53,550: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:53,557: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:53,557: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:53,558: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 21:16:53,558: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 21:16:53,563: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:53,563: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 21:16:53,563: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:53,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:53,563: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:53,563: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:53,563: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 21:16:53,583: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:53,583: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 21:16:53,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:53,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:53,583: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:53,594: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:53,595: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 21:16:53,599: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 21:16:53,599: INFO: data_transformation: (1199, 12)]
+[2023-12-22 21:16:53,599: INFO: data_transformation: (400, 12)]
+[2023-12-22 21:16:53,611: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:16:53,612: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 21:16:53,614: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:16:53,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:16:53,616: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:16:53,616: INFO: common: created directory at: artifacts]
+[2023-12-22 21:16:53,616: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-22 21:16:53,616: ERROR: main: "'ConfigBox' object has no attribute 'alpha'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'alpha'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'alpha'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'alpha'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'alpha'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'alpha'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'alpha'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'alpha'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    data_ingestion.main()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\pipeline\stage_04_model_trainer.py", line 15, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "c:\users\saivi\end_to_end_wine_quality_project\src\mlProject\config\configuration.py", line 74, in get_model_trainer_config
+    alpha = self.params.alpha,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'alpha'"
+[2023-12-22 21:18:15,983: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 21:18:15,983: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:18:15,983: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:18:15,983: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:18:15,983: INFO: common: created directory at: artifacts]
+[2023-12-22 21:18:15,983: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 21:18:15,983: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 21:18:16,001: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:18:16,003: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 21:18:16,006: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:18:16,009: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:18:16,041: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:18:16,052: INFO: common: created directory at: artifacts]
+[2023-12-22 21:18:16,064: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 21:18:16,102: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:18:16,102: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 21:18:16,102: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:18:16,102: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:18:16,102: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:18:16,117: INFO: common: created directory at: artifacts]
+[2023-12-22 21:18:16,118: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 21:18:16,124: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 21:18:16,124: INFO: data_transformation: (1199, 12)]
+[2023-12-22 21:18:16,124: INFO: data_transformation: (400, 12)]
+[2023-12-22 21:18:16,133: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:18:16,133: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 21:18:16,136: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:18:16,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:18:16,137: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:18:16,137: INFO: common: created directory at: artifacts]
+[2023-12-22 21:18:16,137: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-22 21:18:16,186: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-22 21:18:16,186: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-22 21:18:16,186: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 21:18:16,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 21:18:16,186: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 21:18:16,186: INFO: common: created directory at: artifacts]
+[2023-12-22 21:18:16,186: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-22 21:18:16,939: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-22 21:18:24,109: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 22:58:30,716: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-22 22:58:30,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 22:58:30,716: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 22:58:30,726: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 22:58:30,730: INFO: common: created directory at: artifacts]
+[2023-12-22 22:58:30,730: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-22 22:58:30,733: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-12-22 22:58:30,745: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-22 22:58:30,745: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-12-22 22:58:30,754: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 22:58:30,759: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 22:58:30,760: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 22:58:30,762: INFO: common: created directory at: artifacts]
+[2023-12-22 22:58:30,762: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-22 22:58:30,793: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 22:58:30,793: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-12-22 22:58:30,797: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 22:58:30,800: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 22:58:30,802: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 22:58:30,802: INFO: common: created directory at: artifacts]
+[2023-12-22 22:58:30,802: INFO: common: created directory at: artifacts/data_transformation]
+[2023-12-22 22:58:30,829: INFO: data_transformation: Splited data into training and test sets]
+[2023-12-22 22:58:30,832: INFO: data_transformation: (1199, 12)]
+[2023-12-22 22:58:30,832: INFO: data_transformation: (400, 12)]
+[2023-12-22 22:58:30,832: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-12-22 22:58:30,834: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-12-22 22:58:30,834: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 22:58:30,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 22:58:30,834: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 22:58:30,834: INFO: common: created directory at: artifacts]
+[2023-12-22 22:58:30,834: INFO: common: created directory at: artifacts/model_trainer]
+[2023-12-22 22:58:30,880: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-12-22 22:58:30,880: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-12-22 22:58:30,880: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-22 22:58:30,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-22 22:58:30,880: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-22 22:58:30,880: INFO: common: created directory at: artifacts]
+[2023-12-22 22:58:30,880: INFO: common: created directory at: artifacts/model_evaluation]
+[2023-12-22 22:58:30,903: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-12-22 22:58:30,903: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
