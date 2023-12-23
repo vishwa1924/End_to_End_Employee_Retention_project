@@ -11,6 +11,7 @@ class ModelTrainer:
         self.config = config
 
     
+    
     def train(self):
         train_data = pd.read_csv(self.config.train_data_path)
         test_data = pd.read_csv(self.config.test_data_path)
