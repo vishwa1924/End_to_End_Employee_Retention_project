@@ -2,7 +2,7 @@
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/saivishwa.gaddam/End_to_End_Wine_Quality_project.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
+MLFLOW_TRACKING_USERNAME=saivishwa.gaddam \
 MLFLOW_TRACKING_PASSWORD=c42e07064b62f39d7b3a7d6418104507193f8007 \
 python script.py
 
